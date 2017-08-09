@@ -1,0 +1,76 @@
+body {
+  background: url('foodbackground.jpg');
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h1{
+  color: #000000;
+  font-size: 70px;
+  font-family: 'Damion', cursive;
+}
+/*Restaurant Divs*/
+.restaurant {
+  background: #686868;
+  width: 18%;
+  height: 400px;
+  font-family: Tahoma;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  opacity: .9;
+}
+
+.food{
+  width: 50%;
+}
+
+li {
+  text-align: left;
+  line-height: 20px;
+}
+/*Hours of Operation Div*/
+.hours {
+  clear:left;
+  background: #686868;
+  width: 99%;
+  font-family: Tahoma;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  padding-left: 20%;
+  opacity: .9;
+}
+
+table{
+  text-align: left;
+}
+td{
+  width: 300px
+}
+/*Contact Us Div*/
+.contactUs {
+  clear:left;
+  background: #686868;
+  width: 99%;
+  font-family: Tahoma;
+  color: #FFFFFF;
+  border-radius: 6px;
+  padding: 5px;
+  margin: 5px;
+  float: left;
+  opacity: .9;
+}
+
+textarea{
+  width: 400px;
+}
+form{
+  text-align: center;
+}
